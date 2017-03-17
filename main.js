@@ -25,6 +25,25 @@ var data = {
 };
 
 
+function addNode(nodeData,callback) {
+  var name = document.getElementById("name").value;
+
+  if (name != "")
+  {
+    nodeData.label = name;
+    console.log(nodes);
+    console.log(edges);
+    callback(nodeData);
+  }
+  else
+  {
+    callback(null);
+    alert("Please enter a name into the box bellow");
+  }
+}
+
+
+
 var options = {
 
 physics:{
