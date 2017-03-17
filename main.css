@@ -16,7 +16,7 @@ body{
 	border-bottom: 2px solid #FF4081;
 }
 
-input{
+.txt{
   width: 495px;
   font-size: 15px;
   position: relative;
@@ -33,15 +33,4 @@ input{
   margin-bottom: 2px;
   border-color: #FF4081
 
-}
-
-input:focus
-{
-  border-color: #FF4081;
-  box-shadow: 0 0 5px #FF4081;
-  outline: none;
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
 }
